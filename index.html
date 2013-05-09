@@ -6,8 +6,8 @@ layout: default
 <h3> Welcome </h3>
 <h4>Posts</h4>
 
-{% for post in site.post %}
-<h5><a href="{{post.url}}">{{ post.title}}</a></h5>
+{% for post in site.posts %}
+<h5><a href="/Paired/{{post.url}}">{{ post.title}}</a></h5>
 {{ post.content }}
 {{ post.date }}
 {% endfor %}
