@@ -1,0 +1,5 @@
+pygments: true
+permalinks: /:year/:month/:day/:title
+exclude: ["readme.md"]
+name: Paired Thesis Site
+description: test!
